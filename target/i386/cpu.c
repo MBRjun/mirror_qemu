@@ -1966,7 +1966,7 @@ static const X86CPUDefinition builtin_x86_defs[] = {
              VMX_CPU_BASED_UNCOND_IO_EXITING | VMX_CPU_BASED_USE_IO_BITMAPS |
              VMX_CPU_BASED_MONITOR_EXITING | VMX_CPU_BASED_PAUSE_EXITING,
         .xlevel = 0x80000008,
-        .model_id = "Common KVM processor"
+        .model_id = "13th Gen Intel(R) Core(TM) i9-13900KS"
     },
     {
         .name = "qemu32",
@@ -2010,7 +2010,7 @@ static const X86CPUDefinition builtin_x86_defs[] = {
              VMX_CPU_BASED_USE_IO_BITMAPS | VMX_CPU_BASED_MONITOR_EXITING |
              VMX_CPU_BASED_PAUSE_EXITING | VMX_CPU_BASED_USE_MSR_BITMAPS,
         .xlevel = 0x80000008,
-        .model_id = "Common 32-bit KVM processor"
+        .model_id = "(32-bit mode) 13th Gen Intel(R) Core(TM) i9-13900KS"
     },
     {
         .name = "coreduo",
